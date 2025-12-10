@@ -5,7 +5,7 @@ import WeatherForm from "../components/weather/WeatherForm";
 import WeatherDisplay from "../components/weather/WeatherDisplay";
 import ThemeToggle from "../components/weather/ThemeToggle";
 import { useDarkMode } from "../hooks/use-dark-mode";
-import { WeatherData } from "../types";
+import { WeatherData } from "@/types/weather";
 
 
 const WeatherForecast = () => {
